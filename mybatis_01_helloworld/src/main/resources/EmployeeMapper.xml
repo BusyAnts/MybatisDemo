@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 这里的命名空间是自定义的，不需要是Mapper全包名路径 -->
+<mapper namespace="com.cimc.dao.EmployeeMapper">
+<select id="selectEmpById"
+        resultType="com.cimc.bean.Employee">
+    select id, last_name lastName, email, gender
+    from tbl_employee
+    where id = #{id}
+</select>
+</mapper>
