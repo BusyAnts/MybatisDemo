@@ -14,7 +14,7 @@
         <lombok.version>1.18.8</lombok.version>
         <mysql.connector.version>5.1.48</mysql.connector.version>
         <oracle.connector.version>11.2.0.4.0-atlassian-hosted</oracle.connector.version>
-        <log4j.version>2.12.1</log4j.version>
+        <log4j.version>2.16.0</log4j.version>
         <junit.version>5.5.1</junit.version>
     </properties>
 
